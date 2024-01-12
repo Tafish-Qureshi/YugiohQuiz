@@ -36,6 +36,66 @@ const question = [
             { text: "I don't know", correct: false },
         ]
     },
+        {
+            question: "Is the game fun?",
+            answers: [{
+                    text: "Yes",
+                    correct: true
+                },
+                {
+                    text: "No",
+                    correct: false
+                },
+                {
+                    text: "Maybe",
+                    correct: false
+                },
+                {
+                    text: "I don't know",
+                    correct: false
+                },
+            ]
+    },
+            {
+                question: "Als je de effect van Graceful Charity activeert, Wat gebeurt er dan?",
+                answers: [{
+                        text: "Je trekt 3 kaarten en je moet 2 kaarten van je hand op de graveyard leggen",
+                        correct: true
+                    },
+                    {
+                        text: "Je trekt 2 kaarten en je moet 1 kaart van je hand op de graveyard leggen",
+                        correct: false
+                    },
+                    {
+                        text: "Je trekt 3 kaarten en je moet 1 kaart van je hand op de graveyard leggen",
+                        correct: false
+                    },
+                    {
+                        text: "Je trekt 2 kaarten en je moet 2 kaarten van je hand op de graveyard leggen",
+                        correct: false
+                    },
+                ]
+    },
+                {
+                    question: "Hoeveel kaarten mag je maximaal in je hand hebben?",
+                    answers: [{
+                            text: "5",
+                            correct: false
+                        },
+                        {
+                            text: "6",
+                            correct: true
+                        },
+                        {
+                            text: "7",
+                            correct: false
+                        },
+                        {
+                            text: "8",
+                            correct: false
+                        },
+                    ]
+                },
 ]
 
 const questionElement = document.getElementById("question");
