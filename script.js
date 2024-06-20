@@ -36,67 +36,43 @@ const question = [
             { text: "I don't know", correct: false },
         ]
     },
-        {
-            question: "Is the game fun?",
-            answers: [{
-                    text: "Yes",
-                    correct: true
-                },
-                {
-                    text: "No",
-                    correct: false
-                },
-                {
-                    text: "Maybe",
-                    correct: false
-                },
-                {
-                    text: "I don't know",
-                    correct: false
-                },
-            ]
+    {
+        question: "Is the game fun?",
+        answers: [
+            { text: "Yes", correct: true },
+            { text: "No", correct: false },
+            { text: "Maybe", correct: false },
+            { text: "I don't know", correct: false },
+        ]
     },
-            {
-                question: "Als je de effect van Graceful Charity activeert, Wat gebeurt er dan?",
-                answers: [{
-                        text: "Je trekt 3 kaarten en je moet 2 kaarten van je hand op de graveyard leggen",
-                        correct: true
-                    },
-                    {
-                        text: "Je trekt 2 kaarten en je moet 1 kaart van je hand op de graveyard leggen",
-                        correct: false
-                    },
-                    {
-                        text: "Je trekt 3 kaarten en je moet 1 kaart van je hand op de graveyard leggen",
-                        correct: false
-                    },
-                    {
-                        text: "Je trekt 2 kaarten en je moet 2 kaarten van je hand op de graveyard leggen",
-                        correct: false
-                    },
-                ]
+    {
+        question: "When you activate the effect of Graceful Charity, what happens?",
+        answers: [
+            { text: "You draw 3 cards and you must send 2 cards from your hand to the graveyard", correct: true },
+            { text: "You draw 2 cards and you must send 1 card from your hand to the graveyard", correct: false },
+            { text: "You draw 3 cards and you must send 1 card from your hand to the graveyard", correct: false },
+            { text: "You draw 2 cards and you must send 2 cards from your hand to the graveyard", correct: false },
+        ]
     },
-                {
-                    question: "Hoeveel kaarten mag je maximaal in je hand hebben?",
-                    answers: [{
-                            text: "5",
-                            correct: false
-                        },
-                        {
-                            text: "6",
-                            correct: true
-                        },
-                        {
-                            text: "7",
-                            correct: false
-                        },
-                        {
-                            text: "8",
-                            correct: false
-                        },
-                    ]
-                },
-]
+    {
+        question: "What is the maximum number of cards you can have in your hand?",
+        answers: [
+            { text: "5", correct: false },
+            { text: "6", correct: true },
+            { text: "7", correct: false },
+            { text: "8", correct: false },
+        ]
+    },
+    {
+        question: "Which dragon card is the best?",
+        answers: [
+            { text: "Borrelload Dragon", correct: false },
+            { text: "Blue-Eyes White dragon", correct: false },
+            { text: "Borrelload Savage Dragon", correct: true },
+            { text: "Red Dragon Archfiend", correct: false },
+        ]
+    },
+];
 
 const questionElement = document.getElementById("question");
 
